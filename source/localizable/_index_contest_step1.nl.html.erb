@@ -1,43 +1,36 @@
 <h3 class="mb16">Eerste ronde 2021</h3>
+
+<h4 class="mb8">ATTENTION: mesures spéciales pandémie</h4>
+<p><strong>
+	Pas d'accès aux centres régionaux,
+	mais vous pouvez passer l'épreuve à domicile.<br>
+	Pas de Finale, il n'y aura que les Éliminatoires en ligne.
+</strong></p>
+
 <h4 class="mb8">Plaats en datum</h4>
 <p>
-  De eerste ronde vindt plaats in de week van <strong>1 tot 5 februari 2021</strong> in jouw school (start tussen 8u00 en 15u30)
-  of op <strong>woensdag 3 februari om 14u00</strong> in één van de
-  <% if config.registration_open %>
-    <%= link_to "11 regionale centra", "#qualif-centers" %>
-  <% else %>
-    11 regionale centra
-  <% end %>. De proef duurt 75 minuten.
+  L'éliminatoire a lieu la semaine du <strong>1 au 5 février 2021</strong> dans votre école ou à domicile.<br>
+  Vous devez démarrer entre 8h00 et 15h30.<br>
+  L'épreuve dure 75 minutes, vous ne pouvez la passer qu'une seule fois.
 </p>
-
 
 <h4 class="mb8">Types van vragen</h4>
 <p>
-De eerste ronde is een test aan de computer op hetzelfde platform als vorig jaar.
-Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-qualif' %></p>
+  Les éliminatoires se dérouleront sur ordinateur sur la plate-forme habituelle.<br>
+  Voici <%= link_to "quelques exemples de questions", '#sample-questions-qualif' %>.<br>
 
-
-
-<!--<h4 class="mb8">Types van vragen</h4>
-<p>
-  Bezoek het <%= ext_link_to "wedstrijdplatform", current_page.data.contest_platform["nl"], onclick:"fbq('track', 'GoToContestPlatform', {});" %> om de
-  interactieve vragen uit te testen.
-</p>-->
+  Entrainez-vous sur la <%= ext_link_to "plate-forme du concours", current_page.data.contest_platform["nl"], onclick:"fbq('track', 'GoToContestPlatform', {});" %>.
+</p>
 
 <% if config.registration_open %>
-
 <h4 class="mb8">Hoe deelnemen?</h4>
 <p>
-  <strong>U vertegenwoordigt een school?</strong>
-  <%# U kan zich binnenkort inschrijven op het wedstrijd platform. Laat hieronder uw emailadres achter om verwittigd te worden eens de inschrijvingen openen. %>
-  Schrijf u in als coördinator op ons <%= link_to "wedstrijdplatform (administratie)", current_page.data.management_platform["nl"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %>
-</p>
-<p>
-  <strong>Jouw school wenst niet deel te nemen?</strong>
-  <%# Je kan je binnenkort inschrijven om mee te doen in één van de regionale centra. %>
-  Registreer je individueel bij een van onze regionale centra via
-    <%= link_to "dit formulier", "registration" %>
-    .
+	<strong>Vous êtes une école?</strong>
+	Inscrivez-vous en tant que coordinateur sur
+    <%= link_to "notre plate-forme", current_page.data.management_platform["fr"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %> dédiée.
+<br>
+	<strong>Votre école ne souhaite pas participer ou vous préférez participer depuis chez vous?</strong><br>
+	<a href="/fr/registration">Inscrivez-vous individuellement.</a>
 </p>
 <% end %>
 
