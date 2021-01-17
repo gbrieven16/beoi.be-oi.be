@@ -46,7 +46,7 @@ fr:
   contact_us: Contactez-nous !
 
   qualif_round: éliminatoire
-  final_round: finale
+  final_round: finale (annulée)
   more_info_below: détails ci-dessous
   more_info_later: à définir
 
@@ -81,8 +81,10 @@ fr:
   register_button: Je représente une école, je souhaite inscrire mon école
   register_text: Inscrivez-vous aux éliminatoires !
   register_school_text: |
-    Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?<br/>
-    <a href="/fr/registration">Inscrivez-vous individuellement</a> pour passer l'épreuve dans l'un des centres près de chez vous.
+    Votre école ne souhaite pas participer à la beOI?<br/>
+    <a href="/fr/registration">Inscrivez-vous individuellement</a> pour passer l'épreuve à domicile.
+  # Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?<br/>
+  #  <a href="/fr/registration">Inscrivez-vous individuellement</a> pour passer l'épreuve dans l'un des centres près de chez vous.
 
   # beCP
 
