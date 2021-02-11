@@ -178,4 +178,28 @@
     file:
       fr: beCP19-embargo-fr.pdf
       nl: beCP19-embargo-nl.pdf
-
+"2020":
+  -
+    title:
+      official: magictrick
+      fr: Magic Trick
+      nl: Magic Trick
+    file:
+      fr: beCP20-magictrick-en.pdf
+      nl: beCP20-magictrick-en.pdf
+  -
+    title:
+      official: network
+      fr: Network planning
+      nl: Network planning
+    file:
+      fr: beCP20-network-en.pdf
+      nl: beCP20-network-en.pdf
+  -
+    title:
+      official: skyline
+      fr: Skyline
+      nl: Skyline
+    file:
+      fr: beCP20-skyline-en.pdf
+      nl: beCP20-skyline-en.pdf

@@ -338,6 +338,30 @@ trianglify_colors: '["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#ffffbf"
 
 </section>
 
+<section class="bg-secondary">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase large mb80"><%= t(:task_descriptions) %> 2020</h4>
+        <!--end of button tabs-->
+      </div>
+    </div>
+    <!--end of row-->
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <% data.task_descriptions_becp[2020].each do |e| %>
+        <%= link_to  "#{e.title[lang]} (#{e.title.official}) ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+
 <section class="bg-dark pb0" >
   <div class="container">
     <div class="row mb64 mb-xs-32">
