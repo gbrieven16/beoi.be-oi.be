@@ -272,7 +272,6 @@ nl:
     De grafieken hieronder geven de resultaten van de deelnemers weer.
     Om je positie in te schatten in het klassement vind je je score terug,
     en hoe verder links die zich bevindt, hoe hoger jouw positie.
-    De groene zone komt overeen met de geselecteerden voor de finale.
   qualif_result_stat_thresholds: |
     De minimumscore om gekwalificeerd te zijn voor de finale is <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
     <strong>%d punten voor de categorie Junior</strong> (%d finalisten) en
