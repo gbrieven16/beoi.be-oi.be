@@ -46,8 +46,8 @@ nl:
   contact_us: Contacteer ons!
 
   qualif_round: eerste ronde
-  final_round: finale (geannuleerd)
-  more_info_below: meer details hieronder
+  final_round: finale
+  more_info_below: meer details hier
   more_info_later: te bepalen
 
 
@@ -175,7 +175,7 @@ nl:
 
   qualif_task_descriptions_title: Eerste ronde 2016
   final_task_descriptions_title: Finale %d
-  task_description: Opgaven
+  task_description: "" #Opgaven
   solutions: Oplossingen
   task_descriptions_remark: ""
 
