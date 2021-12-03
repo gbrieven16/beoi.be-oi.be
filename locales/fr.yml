@@ -46,8 +46,8 @@ fr:
   contact_us: Contactez-nous !
 
   qualif_round: éliminatoire
-  final_round: finale (annulée)
-  more_info_below: détails ci-dessous
+  final_round: finale
+  more_info_below: plus de détails ici
   more_info_later: à définir
 
 
@@ -117,9 +117,9 @@ fr:
   selection_contest: Concours de sélection pour l'IOI
   selection_contest_details: Bruxelles
   ioi_full: Olympiade Internationale d'Informatique (IOI)
-  ioi_details: Singapour
+  ioi_details: Indonésie
   ejoi_full: Olympiade Européenne Junior d'Informatique (EJOI)
-  ejoi_details: Géorgie
+  ejoi_details: "?"
   bxoi_full: Olympiade du Benelux d'Informatique (BxOI)
   bxoi_details: "?, Pays-Bas"
   selection_contest_link: Plus d'infos sur la beCP
@@ -175,7 +175,7 @@ fr:
 
   qualif_task_descriptions_title: Éliminatoire 2016
   final_task_descriptions_title: Finale %d
-  task_description: Énoncé
+  task_description: "" #Énoncés
   solutions: Solutions
   task_descriptions_remark: ""
 
