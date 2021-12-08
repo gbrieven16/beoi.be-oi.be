@@ -1,13 +1,13 @@
 <h3 class="mb16">Éliminatoires 2022</h3>
 <h4 class="mb8">Lieu et date</h4>
 <p>
-  L'éliminatoire aura lieu la semaine du <strong>11 au 15 février 2022</strong> dans votre école (démarrage entre 8h00 et 15h30)
-	ou le <strong>mercredi 13 février à 14h00</strong> dans l'un des
+  L'éliminatoire aura lieu la semaine du <strong>14 au 18 février 2022</strong> dans votre école (démarrage entre 8h00 et 15h30)
+	ou le <strong>mercredi 16 février à 14h00</strong> dans l'un des
   <% if config.registration_open %>
-  <%= link_to "11 centres régionaux", "#qualif-centers"%>
+  <%= link_to "11 centres régionaux", "#qualif-centers"%>.
   <% else %>
-    11 centres régionaux
-  <% end %>. L'épreuve dure 75 minutes, vous ne pouvez la passer qu'une seule fois.
+    11 centres régionaux.
+  <% end %> L'épreuve dure 75 minutes, vous ne pouvez la passer qu'une seule fois.
 </p>
 
 
@@ -16,12 +16,12 @@
 Les éliminatoires se dérouleront sur ordinateur, sur la plate-forme habituelle.<br>
 Vous retrouverez ci-dessous <%= link_to "quelques exemples de questions", '#sample-questions-qualif' %>.
 </p>
-<!--
+
 <p>
 	Visitez la <%= ext_link_to "plate-forme du concours", current_page.data.contest_platform["fr"], onclick:"fbq('track', 'GoToContestPlatform', {});" %> afin de tester
 	les tâches interactives de beOI.
 </p>
--->
+
 <% if config.registration_open %>
 <h4 class="mb8">Comment participer ?</h4>
 <p>

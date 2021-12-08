@@ -1,13 +1,13 @@
 <h3 class="mb16">Eerste ronde 2022</h3>
 <h4 class="mb8">Plaats en datum</h4>
 <p>
-  De eerste ronde vindt plaats in de week van <strong>11 tot 15 februari 2022</strong> in jouw school (start tussen 8u00 en 15u30)
-  of op <strong>woensdag 13 februari om 14u00</strong> in één van de
+  De eerste ronde vindt plaats in de week van <strong>14 tot 18 februari 2022</strong> in jouw school (start tussen 8u00 en 15u30)
+  of op <strong>woensdag 16 februari om 14u00</strong> in één van de
   <% if config.registration_open %>
-    <%= link_to "11 regionale centra", "#qualif-centers"%>
+    <%= link_to "11 regionale centra", "#qualif-centers"%>.
   <% else %>
-    11 regionale centra
-  <% end %>. De proef duurt 75 minuten; je mag haar slechts één keer afleggen.
+    11 regionale centra.
+  <% end %> De proef duurt 75 minuten; je mag haar slechts één keer afleggen.
 </p>
 
 
@@ -16,12 +16,12 @@
 De voorronde zal zich afspelen op de computer, op het gewoonlijke wedstrijdplatform.<br>
 Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-qualif' %>.
 </p>
-<!--
+
 <p>
   Bezoek het <%= ext_link_to "wedstrijdplatform", current_page.data.contest_platform["nl"], onclick:"fbq('track', 'GoToContestPlatform', {});" %> om de
   interactieve vragen uit te testen.
 </p>
--->
+
 <% if config.registration_open %>
 <h4 class="mb8">Hoe deelnemen?</h4>
 <p>
