@@ -26,11 +26,12 @@
     lng: 4.3973233
 -
   city: Charleroi
-  place: Institut de la Providence - GPH
-  address: |
-      Faubourg de Bruxelles 105
-      6041 Gosselies
-  route_link: https://www.gph.be/acces/
+  place: HELHA
+  address: Te bepalen / A déterminer
+  # address: |
+  #     Faubourg de Bruxelles 105
+  #     6041 Gosselies
+  #route_link: https://www.gph.be/acces/
   pos:
     lat: 50.473463
     lng: 4.436039
