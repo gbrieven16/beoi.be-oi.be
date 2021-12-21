@@ -82,8 +82,13 @@ fbq('track', 'RegistrationPage');
             <label for="mce-CENTER"><%= t(:qualification_center_field) %>
             </label>
             <select name="CENTER" class="required" id="mce-CENTER">
-              <option value="home">A la maison / Thuis</option>
+              <option value=""><%= t(:select_make_choice) %></option>
+              <% data.qualification_centers.each do |c| %>
+              <option value="<%= c.city %>"><%= c.city %></option>
+              <% end %>
+              <!--<option value="In my school"><%= t(:qualification_center_my_school) %></option>-->
             </select>
+            <span><%= t(:qualification_center_expl) %></span>
             <!--<span><%= t(:qualification_center_my_school_expl)%[t(:qualification_center_my_school),link_to(t(:FAQ),"../faq")] %></span>-->
           </div>
           <div id="mce-responses" class="clear">

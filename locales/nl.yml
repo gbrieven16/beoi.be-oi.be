@@ -81,10 +81,10 @@ nl:
   register_button: Ik vertegenwoordig een school en wil mijn school inschrijven
   register_text: Schrijf je in voor de eerste ronde!
   register_school_text: |
-    Neemt jouw school niet deel aan beOI?<br />
-    <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef thuis af te leggen.
-  #  Kan je echt geen leerkracht vinden om jouw school in te schrijven voor beOI?
-  #  <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
+   Kan je echt geen leerkracht vinden om jouw school in te schrijven voor beOI?
+   <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
+  #  Neemt jouw school niet deel aan beOI?<br />
+  # <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef thuis af te leggen.
 
   # beCP
 
