@@ -55,17 +55,21 @@
   href: https://www.cetic.be/
   image: cetic-logo.png
 -
-  name: KDG
-  href: https://www.kdg.be/
-  image: kdg-logo.jpg
+  name: ThomasMore
+  href: https://www.thomasmore.be
+  image: thomasmore-logo.jpg
+#-
+#  name: KDG
+#  href: https://www.kdg.be/
+#  image: kdg-logo.jpg
 -
   name: HE2B-ESI
   href: http://www.heb.be/esi/
   image: heb-esi-logo.png
-#-
-#  name: VIVES
-#  href: http://www.vives.be
-#  image: vives-logo.jpg
+-
+  name: VIVES
+  href: http://www.vives.be
+  image: vives-logo.jpg
 #-
 #  name: EHB
 #  href: http://www.ehb.be
