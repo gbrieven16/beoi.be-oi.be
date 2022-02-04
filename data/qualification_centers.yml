@@ -1,13 +1,12 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  address: Te bepalen / A déterminer
-  # address: |
-  #    Campus Groenenborger, gebouw Z
-  #    lokaal Z.421
-  #    Groenenborgerlaan 171
-  #    2020 Antwerpen
-  # route_link: https://www.uantwerpen.be/campus-groenenborger
+  address: |
+    Campus Groenenborger, gebouw Z
+    Lokaal Z.423
+    Groenenborgerlaan 171
+    2020 Antwerpen
+  route_link: https://www.uantwerpen.be/campus-groenenborger
   pos:
     lat: 51.17821
     lng: 4.41853
@@ -27,11 +26,11 @@
 -
   city: Charleroi
   place: HELHA
-  address: Te bepalen / A déterminer
-  # address: |
-  #     Faubourg de Bruxelles 105
-  #     6041 Gosselies
-  #route_link: https://www.gph.be/acces/
+  address: |
+    UCLouvain, Campus de Charleroi
+    Salle informatique D007
+    136, Rue Trieu Kaisin
+    6061 Montignies-sur-Sambre
   pos:
     lat: 50.473463
     lng: 4.436039
@@ -51,18 +50,19 @@
   pos:
     lat: 51.0227516
     lng: 3.7105733
--
-  city: Hasselt
-  place: Universiteit Hasselt
-  address: Te bepalen / A déterminer
-  # address: |
-  #     Lokaal B17
-  #     Agoralaan gebouw D
-  #     3590 Diepenbeek
-  # route_link: https://drive.google.com/a/uhasselt.be/open?id=1zXIf7GVO8ILyyZWhAxpnhnuAHEZO80-i&usp=sharing
-  pos:
-    lat: 50.9253703
-    lng: 5.3912436
+# -
+# No qualification centre in Hasselt for 2022, but OK for next year
+#   city: Hasselt
+#   place: Universiteit Hasselt
+#   address: Te bepalen / A déterminer
+#   address: |
+#       Lokaal B17
+#       Agoralaan gebouw D
+#       3590 Diepenbeek
+#   route_link: https://drive.google.com/a/uhasselt.be/open?id=1zXIf7GVO8ILyyZWhAxpnhnuAHEZO80-i&usp=sharing
+#   pos:
+#     lat: 50.9253703
+#     lng: 5.3912436
 -
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
@@ -92,12 +92,11 @@
 -
   city: Libramont
   place: Haute École Robert Schuman (HERS)
-  address: Te bepalen / A déterminer
-  # address: |
-  #   Local B1
-  #   Rue de la Cité, 64
-  #   6800 Libramont
-  # route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
+  address: |
+    Local B1
+    Rue de la Cité, 64
+    6800 Libramont
+  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
   pos:
     lat: 49.9280097
     lng: 5.3788132
@@ -117,7 +116,7 @@
     lng: 5.5723187
 -
   city: Louvain-la-Neuve
-  place: Université catholique de Louvain
+  place: Université Catholique de Louvain
   address: Te bepalen / A déterminer
   # address: |
   #   Salle Darwin (local C 039)
@@ -131,28 +130,16 @@
 -
   city: Mons
   place: Université de Mons
-  address: Te bepalen / A déterminer
-  # address: |
-  #     Université de Mons,
-  #     Faculté des sciences
-  #     Salle Bertrand Russell
-  #     Bâtiment de Vinci, Premier étage
-  #     Avenue Maistriau, 19
-  #     7000 Mons
-  # route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
+  address: |
+    Université de Mons, Faculté des sciences
+    Salle Bertrand Russell (1er étage)
+    Bâtiment de Vinci-Mendeleïev
+    Avenue Victor Maistriau, 15
+    7000 Mons
+  route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
   pos:
-    lat: 50.4522063
-    lng: 3.9533022
-  # |
-  #    Salle Escher et Turing
-  #    Rez de chaussée
-  #    Bâtiment des Grands Amphithéâtres (9 sur la carte)
-  #    Avenue du champ de Mars, 8
-  #    7000 Mons
-  # route_link: http://informatique.umons.ac.be/index.php?p=olympiades
-  # pos:
-  #   lat: 50.4516334
-  #   lng: 3.9591075
+    lat: 50.465386309824076
+    lng: 3.957460607554272
 -
   city: Namur
   place: Université de Namur
