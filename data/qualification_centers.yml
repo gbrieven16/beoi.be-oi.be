@@ -37,16 +37,12 @@
 -
   city: Gent
   place: Universiteit Gent
-  address: Te bepalen / A déterminer
-  # address: |
-  #     PC-zaal Grace Hopper
-  #     1e verdieping
-  #     gebouw S5
-  #     Campus Sterre
-  #     Krijgslaan 281
-  #     9000 Gent
-  #     (niet de campus op rijden; buiten de campus parkeren)
-  # route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
+  address: |
+    Faculteit Wetenschappen
+    1e verdieping - lokaal 40.09.110.005
+    Krijgslaan 281 - S9
+    B-9000 GENT
+  route_link: https://pcknooppuntwe.ugent.be/A_Turing.html
   pos:
     lat: 51.0227516
     lng: 3.7105733
@@ -102,28 +98,25 @@
     lng: 5.3788132
 -
   city: Liège
-  place: HELMo
-  address: Te bepalen / A déterminer
-  # address: |
-  #     HELMO Campus Guillemins
-  #     Rue de Harlez, 35
-  #     4000 Liège
-  #     5ème étage, laboratoires IL51, IL55 et IL56
-  #     (sous le porche d'entrée (n°35) à gauche, passer les portes vitrées automatiques et monter au 5ème étage)
-  # route_link: https://www.helmo.be/Institution/Instituts/HELMo-Campus-Guillemins-Sainte-Marie/Plan-Acces.aspx
+  place: Université de Liège
+  address: |
+      Institut de Maths (B37), salle -1.45
+      Sart-Tilman, Quartier Polytech 1
+      Allée de la découverte, 12
+      4000 Liège
+  route_link: https://www.campus.uliege.be/cms/c_1841523/fr/b37-institut-de-mathematiques
   pos:
-    lat: 50.6224177
-    lng: 5.5723187
+    lat: 50.58665651481353
+    lng: 5.559120571758285
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  address: Te bepalen / A déterminer
-  # address: |
-  #   Salle Darwin (local C 039)
-  #   Bâtiment Carnoy
-  #   Place Croix du Sud
-  #   1348 Louvain-la-Neuve
-  # route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
+  address: |
+    Salle Darwin (local C 039)
+    Bâtiment Carnoy
+    Place Croix du Sud
+    1348 Louvain-la-Neuve
+  route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
   pos:
     lat: 50.6671189
     lng: 4.6195422
@@ -131,7 +124,7 @@
   city: Mons
   place: Université de Mons
   address: |
-    Université de Mons, Faculté des sciences
+    Faculté des sciences
     Salle Bertrand Russell (1er étage)
     Bâtiment de Vinci-Mendeleïev
     Avenue Victor Maistriau, 15
@@ -143,13 +136,12 @@
 -
   city: Namur
   place: Université de Namur
-  address: Te bepalen / A déterminer
-  # address: |
-  #    Université de Namur - Faculté d’informatique
-  #    Rue Grandgagnage, 21
-  #    5000 Namur
-  #    Pool I35 (3ème étage de la Faculté d’informatique, local 330)
-  # route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
+  address: |
+    Faculté d’informatique
+    Pool I35 (3ème étage, local 330)
+    Rue Grandgagnage, 21
+    5000 Namur
+  route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
   pos:
     lat: 50.4658487
     lng: 4.8576964
