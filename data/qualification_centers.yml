@@ -12,17 +12,16 @@
     lng: 4.41853
 -
   city: Brussel / Bruxelles
-  place: Université Libre de Bruxelles
-  address: Te bepalen / A déterminer
-  # address: |
-  #     bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
-  #     gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
-  #     Boulevard du Triomphe
-  #     1050 Bruxelles
-  # route_link: https://www.ulb.ac.be/campus/plaine/plan-NO.html
+  place: Haute École Bruxelles–Brabant
+  address: |
+    Département des Sciences Informatiques
+    Campus HE2B–ESI
+    Rue Royale 67
+    1000 Bruxelles
+  route_link: https://www.he2b.be/campus-esi
   pos:
-    lat: 50.8200945
-    lng: 4.3973233
+    lat: 50.8495931
+    lng: 4.3618954
 -
   city: Charleroi
   place: HELHA
