@@ -257,10 +257,7 @@ fr:
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
-    L'éliminatoire de l'olympiade 2021 a eu lieu la semaine du 1 au 5 février dans les écoles ou à domicile (pour cause de Covid).
-    Étant dans l'impossibilité d'éviter toute triche, il a été décidé de ne pas publier le nom des meilleurs élèves cette année.
-    Comme indiqué précédemment, la finale est également annulée cette année.
-    Cette page reprend quelques statistiques sur cette épreuve, vous pouvez comparer ces scores avec le vôtre ou ceux de vos élèves.
+    L'éliminatoire de l'olympiade 2022 a eu lieu la semaine du 16 février dans les écoles et centre régionaux.
   qualif_chart_nbcontestants: Nombre de participants
   qualif_chart_lang: Langue
   qualif_chart_lang_fr: Francophones
@@ -276,6 +273,7 @@ fr:
     Les graphiques ci-dessous représentent les scores de chaque participants.
     Pour estimer votre position dans le classement,
     trouvez votre score, plus il est a gauche plus vous êtes dans les premières positions.
+    La zone verte correspond aux candidats sélectionnés pour la finale.
   qualif_result_stat_thresholds: |
     Le score minimal pour être qualifié pour la finale est de <strong>%d points pour la catégorie cadet</strong> (%d candidats),
     <strong>%d points pour la catégorie junior</strong> (%d candidats) et <strong>%d points pour la catégorie senior</strong> (%d candidats).

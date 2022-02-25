@@ -11,7 +11,7 @@ set :beoi_year, 2022
 # - :qualif_results_published -- Qualif results available, final in future
 # - :waiting_final_results -- Final past, waiting for results to be available
 # - :final_results_published -- Final results available
-set :contest_state, :waiting_qualif_results
+set :contest_state, :qualif_results_published
 
 # some config depending on the contest state
 set :show_qualif_results, %i[qualif_results_published waiting_final_results final_results_published].include?(config.contest_state)
@@ -92,6 +92,11 @@ helpers do
 
   def has_current_year_solutions
     data.task_descriptions.has_key? config.beoi_year
+  end
+
+  # return the number of scores above or equals to the threshold
+  def count_finalists(scores, threshold)
+    scores.lines.map(&:chomp).count { |s| s.to_i >= threshold }
   end
 
 end
