@@ -1,7 +1,7 @@
 stats:
-  count_cadet: 533
+  count_cadet: 534
   count_junior: 840
-  count_senior: 687
+  count_senior: 686
   school_org_total: 70
   threshold_cadet: 240
   threshold_junior: 270
@@ -335,6 +335,7 @@ charts:
     195
     195
     195
+    193
     190
     190
     190
@@ -2070,7 +2071,6 @@ charts:
     195
     195
     195
-    193
     193
     190
     190
