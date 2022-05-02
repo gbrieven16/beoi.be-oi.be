@@ -246,14 +246,13 @@ fr:
 
   final_result_title: "Finale: Résultats"
   final_results_expl_past: |
-    Pas de proclamation cette année à cause de la pandémie de Coronavirus.<br>
+    La finale de l'olympiade 2022 eu lieu le 23 avril à Bruxelles.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
-    Les premiers de chaque catégorie seront contactés par mail et recevront un diplôme par la poste.
   final_results_expl_future: |
+    La finale de l'olympiade 2022 eu lieu le 23 avril à Bruxelles.<br>
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
     Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.<br>
-    Ils recevront leur classement final et un prix lors de la proclamation prévue le 23 mai à Bruxelles.<br>
-    <strong>La proclamation sera peut-être reportée ou annulée en fonction de l'évolution de la pandémie de Coronavirus.</strong>
+    Ils recevront leur classement final et un prix lors de la proclamation prévue le 14 mai à Bruxelles.<br>
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |

@@ -2321,6 +2321,24 @@ th {
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f9f9f9;
 }
+.table-striped-cadet > tbody > tr:nth-of-type(odd) {
+  background-color: #fff0f0;
+}
+.table-striped-cadet > tbody > tr:nth-of-type(even) {
+  background-color: #fff8f8;
+}
+.table-striped-junior > tbody > tr:nth-of-type(odd) {
+  background-color: #f0fff0;
+}
+.table-striped-junior > tbody > tr:nth-of-type(even) {
+  background-color: #f8fff8;
+}
+.table-striped-senior > tbody > tr:nth-of-type(odd) {
+  background-color: #ffffe0;
+}
+.table-striped-senior > tbody > tr:nth-of-type(even) {
+  background-color: #fffff0;
+}
 .table-hover > tbody > tr:hover {
   background-color: #f5f5f5;
 }

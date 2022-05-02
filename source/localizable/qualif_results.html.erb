@@ -82,7 +82,7 @@ trianglify_colors: '"RdYlGn"'
   <!--end of container-->
 </section>
 
-<section class="altern">
+<section>
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -90,7 +90,7 @@ trianglify_colors: '"RdYlGn"'
         <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2022_qualif.contestants.cadet.size %> - <%= t(:qualif_on_total)%data.results_2022_qualif.stats.count_cadet %></h5>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <table class="table table-striped">
+        <table class="table table-striped-cadet">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
             <% data.results_2022_qualif.contestants.cadet.each do |r| %>
@@ -112,7 +112,7 @@ trianglify_colors: '"RdYlGn"'
   <!--end of container-->
 </section>
 
-<section class="altern">
+<section>
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -120,7 +120,7 @@ trianglify_colors: '"RdYlGn"'
         <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2022_qualif.contestants.junior.size %> - <%= t(:qualif_on_total)%data.results_2022_qualif.stats.count_junior %></h5>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <table class="table table-striped">
+        <table class="table table-striped-junior">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
             <% data.results_2022_qualif.contestants.junior.each do |r| %>
@@ -141,7 +141,7 @@ trianglify_colors: '"RdYlGn"'
   </div>
   <!--end of container-->
 </section>
-<section class="altern">
+<section>
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -149,7 +149,7 @@ trianglify_colors: '"RdYlGn"'
         <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2022_qualif.contestants.senior.size %> - <%= t(:qualif_on_total)%data.results_2022_qualif.stats.count_senior %></h5>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
-        <table class="table table-striped">
+        <table class="table table-striped-senior">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
             <% data.results_2022_qualif.contestants.senior.each do |r| %>
