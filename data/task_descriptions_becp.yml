@@ -203,3 +203,65 @@
     file:
       fr: beCP20-skyline-en.pdf
       nl: beCP20-skyline-en.pdf
+"2022":
+  -
+    title:
+      official: parkour
+      fr: Parkour
+      nl: Parkour
+      en: Parkour (EN)
+    file:
+      fr: beCP22-parkour-fr.pdf
+      nl: beCP22-parkour-nl.pdf
+      en: beCP22-parkour-en.pdf
+  -
+    title:
+      official: rangemin
+      fr: Rangemin
+      nl: Rangemin
+      en: Rangemin (EN)
+    file:
+      fr: beCP22-rangemin-fr.pdf
+      nl: beCP22-rangemin-nl.pdf
+      en: beCP22-rangemin-en.pdf
+  -
+    title:
+      official: slogans
+      fr: Slogans
+      nl: Slogans
+      en: Slogans (EN)
+    file:
+      fr: beCP22-slogans-fr.pdf
+      nl: beCP22-slogans-nl.pdf
+      en: beCP22-slogans-en.pdf
+  -
+    title:
+      official: secretagents
+      fr: Agents secrets
+      nl: Secret Agents
+      en: Secret Agents (EN)
+    file:
+      fr: beCP22-secretagents-fr.pdf
+      nl: beCP22-secretagents-nl.pdf
+      en: beCP22-secretagents-en.pdf
+  -
+    title:
+      official: periodictable
+      fr: Memes de tableau periodique
+      nl: Periodic Table Memes
+      en: Periodic Table Memes (EN)
+    file:
+      fr: beCP22-periodictable-fr.pdf
+      nl: beCP22-periodictable-nl.pdf
+      en: beCP22-periodictable-en.pdf
+  -
+    title:
+      official: souvenirs
+      fr: Souvenirs
+      nl: Souvenirs
+      en: Souvenirs (EN)
+    file:
+      fr: beCP22-souvenirs-fr.pdf
+      nl: beCP22-souvenirs-nl.pdf
+      en: beCP22-souvenirs-en.pdf
+      

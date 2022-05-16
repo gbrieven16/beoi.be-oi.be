@@ -1,0 +1,65 @@
+- position: 1
+  score: 500
+  name: Zhiyi Luo
+  school: College Paters Jozefieten
+  year: year_5th
+- position: 2
+  score: 466
+  name: Vladislav Morozov
+  school: The British School of Brussels
+  year: year_6th
+- position: 3
+  score: 455
+  name: Petar Vitorac
+  school: Collège Saint-Pierre Uccle
+  year: year_6th
+- position: 4
+  score: 441
+  name: Pieterjan Vandecasteele
+  school: St-Lodewijkscollege Brugge
+  year: year_6th
+- position: 5
+  score: 385
+  name: Mathis Poppe
+  school: Sint-Martinuscollege Overijse
+  year: year_6th
+- position: 6
+  score: 305
+  name: Milan Pickavet
+  school: Don Boscocollege Zwijnaarde
+  year: year_6th
+- position: 7
+  score: 222
+  name: Akram Zakine
+  school: Athénée Robert Catteau
+  year: year_4th
+- position: 8
+  score: 193
+  name: Mathias Gernez
+  school: Athénée Royal de Nivelles
+  year: year_6th
+- position: 9
+  score: 180
+  name: Tibor Varga
+  school: Ecole Internationale Montgomery
+  year: year_3rd
+- position: 10
+  score: 150
+  name: Alban Van Vyve
+  school: Institut de la Vierge Fidèle
+  year: year_3rd
+- position: 11
+  score: 122
+  name: Stefan Andrian
+  school: École Européenne III
+  year: year_3rd
+- position: 12
+  score: 110
+  name: Joaquim Schaeverbeke
+  school: KA Etterbeek
+  year: year_2nd
+- position: 13
+  score: 85
+  name: Noé Zech
+  school: Collège du Christ-Roi
+  year: year_2nd
