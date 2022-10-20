@@ -1,9 +1,12 @@
-<h3>Finale 2022</h3>
+<h3>Finale 2023</h3>
 
 <h4 class="mb8">Lieu et date</h4>
 <p>
-  La finale aura lieu le <strong>samedi 23 avril 2022</strong> à Bruxelles, Avenue Franklin Roosevelt 48.<br>
-  <strong>Campus du Solbosch de l'ULB, bâtiment J, <%= ext_link_to "auditoire Paul-Émile Janson", 'https://www.google.com/maps/place/ULB+Solbosch+B%C3%A2timent+J/@50.8134502,4.3805798,18z/data=!4m5!3m4!1s0x0:0x2ee94540725c18c9!8m2!3d50.8133151!4d4.3796544?hl=fr' %></strong>.<br>
+  La finale aura lieu le <strong>samedi 18 mars 2023</strong> à Bruxelles.<br>
+  <!--
+  , Avenue Franklin Roosevelt 48.<br>
+  <strong>Campus du Solbosch de l'ULB, bâtiment J, <%= ext_link_to "auditoire Paul-Émile Janson", "https://www.google.com/maps/place/ULB+Solbosch+B%C3%A2timent+J/@50.8134502,4.3805798,18z/data=!4m5!3m4!1s0x0:0x2ee94540725c18c9!8m2!3d50.8133151!4d4.3796544?hl=fr" %></strong>.<br>
+  -->
 </p>
 
 <% unless config.final_is_over %>
@@ -16,10 +19,10 @@
 </p>
 
 <h4 class="mb8">Types de questions</h4>
-<p>La finale se déroulera sur papier, comme pour les éditions précédentes. Vous retrouverez ci-dessous <%= link_to "quelques exemples de questions", '#sample-questions-final' %>
+<p>La finale se déroulera sur papier, comme pour les éditions précédentes. Vous retrouverez ci-dessous <%= link_to "quelques exemples de questions", "#sample-questions-final" %>
  et les <%= link_to "questions des finales précédentes", "#questions-solutions" %>.</p>
 
 <% end %>
 
-<% if has_current_year_solutions %><h4>Questions et solutions 2022</h4><%= link_to "#{t("task_description")}#{t("solutions")}", '#questions-solutions', class:'btn btn-lg btn-filled' %><% end %>
-<% if config.show_final_results %><%= link_to t("Results"), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
+<% if has_current_year_solutions %><h4>Questions et solutions 2022</h4><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
+<% if config.show_final_results %><%= link_to t("Results"), "final_results", class:"btn btn-lg btn-filled" %><% end %>

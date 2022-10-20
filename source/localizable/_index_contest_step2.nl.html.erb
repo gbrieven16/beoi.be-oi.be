@@ -1,9 +1,12 @@
-<h3>Finale 2022</h3>
+<h3>Finale 2023</h3>
 
 <h4 class="mb8">Plaats en datum</h4>
 <p>
-  De finale vindt plaats op <strong>zaterdag 23 april 2022</strong> in Brussel, Franklin Rooseveltlaan 48.<br>
-  <strong>Solbosch campus van de ULB, gebouw J, <%= ext_link_to "auditoria Paul-Émile Janson", 'https://www.google.com/maps/place/ULB+Solbosch+B%C3%A2timent+J/@50.8135045,4.3800971,18.13z/data=!4m5!3m4!1s0x0:0x2ee94540725c18c9!8m2!3d50.8133151!4d4.3796544?hl=nl' %></strong>.<br>
+  De finale vindt plaats op <strong>zaterdag 18 maart 2023</strong> in Brussel.<br>
+  <!--
+  , Franklin Rooseveltlaan 48.<br>
+  <strong>Solbosch campus van de ULB, gebouw J, <%= ext_link_to "auditoria Paul-Émile Janson", "https://www.google.com/maps/place/ULB+Solbosch+B%C3%A2timent+J/@50.8135045,4.3800971,18.13z/data=!4m5!3m4!1s0x0:0x2ee94540725c18c9!8m2!3d50.8133151!4d4.3796544?hl=nl" %></strong>.<br>
+  -->
 </p>
 
 <% unless config.final_is_over %>
@@ -16,10 +19,10 @@
 </p>
 
 <h4 class="mb8">Types van vragen</h4>
-<p>De finale is een proef op papier, zoals de voorgaande jaren. Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-final' %>
+<p>De finale is een proef op papier, zoals de voorgaande jaren. Je vindt hieronder <%= link_to "enkele voorbeeldvragen", "#sample-questions-final" %>
 en de <%= link_to "vragen van de vorige finales", "#questions-solutions" %>.</p>
 
 <% end %>
 
-<% if has_current_year_solutions %><h4>Vragen en oplossingen 2022</h4><%= link_to "#{t("task_description")}#{t("solutions")}", '#questions-solutions', class:'btn btn-lg btn-filled' %><% end %>
-<% if config.show_final_results %><%= link_to t("Results"), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
+<% if has_current_year_solutions %><h4>Vragen en oplossingen 2022</h4><%= link_to "#{t("task_description")}#{t("solutions")}", "#questions-solutions", class:"btn btn-lg btn-filled" %><% end %>
+<% if config.show_final_results %><%= link_to t("Results"), "final_results", class:"btn btn-lg btn-filled" %><% end %>
