@@ -20,6 +20,8 @@ jobs:
         run: |
           bundle config set --local without 'development'
           bundle install --jobs 4 --retry 3
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
       - run: bundle exec middleman build --verbose
       - name: Publish to S3
         run: bundle exec middleman s3_sync
