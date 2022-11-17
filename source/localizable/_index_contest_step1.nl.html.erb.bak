@@ -17,7 +17,7 @@
   De voorronde zal zich afspelen op de computer, op het gewoonlijke wedstrijdplatform.<br>
   Ziehier <%= link_to "enkele voorbeeldvragen", '#sample-questions-qualif' %>.<br>
 
-  Oefen op het <%= ext_link_to "wedstrijdplatform", current_page.data.contest_platform["nl"], onclick:"fbq('track', 'GoToContestPlatform', {});" %>.
+  Oefen op het <%= ext_link_to "wedstrijdplatform", current_page.data.contest_platform["nl"] %>.
 </p>
 
 <% if config.registration_open %>
@@ -25,7 +25,7 @@
 <p>
         <strong>Bent u een school?</strong>
         Schrijf u in als coördinator op
-    <%= link_to "ons wedstrijdplatform", current_page.data.management_platform["nl"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %>.
+    <%= link_to "ons wedstrijdplatform", current_page.data.management_platform["nl"] %>.
 <br>
         <strong>Neemt jouw school niet deel of neem je liever van thuis uit deel (uitsluitend op woensdag 3 februari om 14u)?</strong><br>
 	<a href="/nl/registration">Schrijf je individueel in.</a>

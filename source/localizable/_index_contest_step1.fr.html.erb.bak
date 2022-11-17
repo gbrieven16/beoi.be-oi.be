@@ -18,7 +18,7 @@
   Les éliminatoires se dérouleront sur ordinateur sur la plate-forme habituelle.<br>
   Voici <%= link_to "quelques exemples de questions", '#sample-questions-qualif' %>.<br>
 
-  Entrainez-vous sur la <%= ext_link_to "plate-forme du concours", current_page.data.contest_platform["fr"], onclick:"fbq('track', 'GoToContestPlatform', {});" %>.
+  Entrainez-vous sur la <%= ext_link_to "plate-forme du concours", current_page.data.contest_platform["fr"] %>.
 </p>
 
 <% if config.registration_open %>
@@ -26,7 +26,7 @@
 <p>
 	<strong>Vous êtes une école?</strong>
 	Inscrivez-vous en tant que coordinateur sur
-    <%= link_to "notre plate-forme", current_page.data.management_platform["fr"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %> dédiée.
+    <%= link_to "notre plate-forme", current_page.data.management_platform["fr"] %> dédiée.
 <br>
 	<strong>Votre école ne souhaite pas participer ou vous préférez participer depuis chez vous (le mercredi 3 février 14h uniquement) ?</strong><br>
 	<a href="/fr/registration">Inscrivez-vous individuellement.</a>
