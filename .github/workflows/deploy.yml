@@ -1,9 +1,7 @@
 name: Deploy on S3
 
 on:
-  push:
-    branches:
-      - master
+  push
 
 jobs:
   build:
