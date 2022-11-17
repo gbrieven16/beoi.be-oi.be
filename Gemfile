@@ -6,7 +6,7 @@ Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
 
 # Middleman Gems
-gem 'middleman', '~> 4.4'
+gem 'middleman'
 gem 'middleman-livereload'
 gem 'middleman-s3_sync'
 gem 'mime-types'
