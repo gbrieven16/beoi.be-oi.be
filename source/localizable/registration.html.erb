@@ -3,9 +3,12 @@ title: Registration
 trianglify_colors: '"RdYlGn"'
 ---
 <script type="text/javascript">
-$(document).ready(function(){
-   var $form = $('#registration-form');
-   $form.submit(function(){
+  $(document).ready(function(){
+    var $form = $('#registration-form');
+    $form.submit(function(){
+      $('#form-success').toggle(false);
+      $('#form-already').toggle(false);
+      $('#form-failure').toggle(false);
       $('#form-button').prop("disabled",true);
       $.post($(this).attr('action'), $(this).serialize(), function(response){
         if (response.data) { $('#form-success').toggle(true); return; }
@@ -13,8 +16,8 @@ $(document).ready(function(){
         $('#form-button').prop("disabled", false);
       },'json').fail(function() { $('#form-failure').toggle(true); $('#form-button').prop("disabled", false); });
       return false;
-   });
-});
+    });
+  });
 </script>
 
 <section class="cover image-bg overlay" style="background-color:#fdae61;">
