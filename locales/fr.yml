@@ -130,11 +130,10 @@ fr:
   # Be inform about registration form
   keep_me_informed_of_registrations: Soyez prévenu de la prochaine olympiade
   mailinglist_success_msg: Merci. Nous vous informerons de l'ouverture des inscriptions.
-  mailinglist_error_msg: Veuillez entrez une adresse e-mail correcte.
+  mailinglist_alreadyin_msg: Il semble que vous soyez déjà inscrit.
+  mailinglist_error_msg: Erreur d'ajout à la liste. Si ce problème persiste, contactez-nous (info@be-oi.be).
   mailinglist_email_placeholder: Adresse e-mail
   mailinglist_submit_button: Tenez-moi informé
-  mailinglist_alt_link_l1: Le formulaire ci-dessus ne fonctionne pas dans votre navigateur ?
-  mailinglist_alt_link_l2: Indiquez votre adresse email sur cette page.
 
   wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochains jours.
