@@ -19,6 +19,8 @@
     <link href='/fonts/conforta.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <%= javascript_include_tag "jquery.min", "bootstrap.min", "flexslider.min", "smooth-scroll.min", "parallax", "scripts", "countdown.min" %>
+
     <% if [:fr, :nl].include? lang %>
 
 
@@ -152,7 +154,6 @@
       </script>
     <% end %>
 
-    <%= javascript_include_tag "jquery.min", "bootstrap.min", "flexslider.min", "smooth-scroll.min", "parallax", "scripts", "countdown.min" %>
     <% if current_page.data.trianglify_colors %>
     <script type="text/javascript">
       jQuery(function($){

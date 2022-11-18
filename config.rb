@@ -19,11 +19,6 @@ set :final_is_over, %i[waiting_final_results final_results_published].include?(c
 set :show_final_results, config.contest_state == :final_results_published
 set :registration_open, config.contest_state == :registration
 
-set :mailchimp_registration_submit, {
-  fr: "https://be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4",
-  nl: "https://be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=b5f459ac54"
-}
-
 ###
 # Compass
 ###

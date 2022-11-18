@@ -318,6 +318,9 @@ fr:
     En vous inscrivant, vous acceptez les règles du concours décrites dans la page %s.
   subscribe_button: M'inscrire
   form_fail: (Un problème avec ce formulaire ? Essayez un autre navigateur !)
+  registration_success_msg: Félicitations, vous êtes maintenant inscrit !
+  registration_failure_msg: Erreur lors de l'inscription. Si ce problème persiste, contactez-nous à info@be-oi.be.
+  registration_alreadyregistered_msg: Vous êtes déjà inscrit ! (ou quelqu'un avec le même adresse email)
 
   # Local Centers
   localcenters_title: "Eliminatoire: les 8 centres"

@@ -132,6 +132,23 @@ input[type="email"] {
 .datefield .yearfield input {
   width: 40%;
 }
+
+.button.disabled,
+.button[disabled],
+fieldset[disabled] .button {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+a.button.disabled,
+fieldset[disabled] a.button {
+  pointer-events: none;
+}
+
+
+
 #mce-error-response,
 #mce-success-response{
   color: white;

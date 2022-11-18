@@ -317,6 +317,9 @@ nl:
     Door je in te schrijven aanvaard je de regels van de wedstrijd beschreven in het %s.
   subscribe_button: Inschrijven
   form_fail: (Problemen met dit formulier? Probeer met een andere browser!)
+  registration_success_msg: Gefeliciteerd, je bent nu ingeschreven!
+  registration_failure_msg: Fout tijdens de registratie. Als dit probleem aanhoudt, neem dan contact met ons op via info@be-oi.be.
+  registration_alreadyregistered_msg: Je bent al geregistreerd! (of iemand met hetzelfde e-mailadres)
 
   # Local Centers
   localcenters_title: "Eerste ronde: de 8 centra"
