@@ -22,6 +22,10 @@ management_platform:
           <h4 class="uppercase mb48 mb-xs-32">
             <%= t(:subtitle) %>
           </h4>
+          <% if [ :preregistration, :registration].include? config.contest_state %>
+          <%= ext_link_to t(:try_now), current_page.data.contest_platform[lang], class:"btn btn-filled btn-lg mb0" %>
+          <% end %>
+
         </div>
       </div>
     </div>
