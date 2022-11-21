@@ -322,4 +322,4 @@ fr:
   registration_alreadyregistered_msg: Vous êtes déjà inscrit ! (ou quelqu'un avec le même adresse email)
 
   # Local Centers
-  localcenters_title: "Eliminatoire: les 8 centres"
+  localcenters_title: "Eliminatoire: les %d centres"

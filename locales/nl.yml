@@ -321,4 +321,4 @@ nl:
   registration_alreadyregistered_msg: Je bent al geregistreerd! (of iemand met hetzelfde e-mailadres)
 
   # Local Centers
-  localcenters_title: "Eerste ronde: de 8 centra"
+  localcenters_title: "Eerste ronde: de %d centra"

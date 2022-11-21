@@ -1,144 +1,154 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  address: |
-    Campus Groenenborger, gebouw Z
-    Lokaal Z.423
-    Groenenborgerlaan 171
-    2020 Antwerpen
-  route_link: https://www.uantwerpen.be/campus-groenenborger
+  address: Te bepalen / A déterminer
+  # address: |
+  #   Campus Groenenborger, gebouw Z
+  #   Lokaal Z.423
+  #   Groenenborgerlaan 171
+  #   2020 Antwerpen
+  # route_link: https://www.uantwerpen.be/campus-groenenborger
   pos:
     lat: 51.17821
     lng: 4.41853
 -
   city: Brussel / Bruxelles
-  place: Haute École Bruxelles–Brabant
-  address: |
-    Département des Sciences Informatiques
-    Campus HE2B–ESI
-    Rue Royale 67
-    1000 Bruxelles
-  route_link: https://www.he2b.be/campus-esi
+  place: "?"
+  address: Te bepalen / A déterminer
+  # address: |
+  #   Département des Sciences Informatiques
+  #   Campus HE2B–ESI
+  #   Rue Royale 67
+  #   1000 Bruxelles
+  # route_link: https://www.he2b.be/campus-esi
   pos:
     lat: 50.8495931
     lng: 4.3618954
-# -
-#   city: Charleroi
-#   place: HELHA
-#   address: |
+-
+  city: Charleroi
+  place: HELHA
+  address: Te bepalen / A déterminer
+  # address: |
 #     UCLouvain, Campus de Charleroi
 #     Salle informatique D007
 #     136, Rue Trieu Kaisin
 #     6061 Montignies-sur-Sambre
-#   pos:
-#     lat: 50.473463
-#     lng: 4.436039
+  pos:
+    lat: 50.473463
+    lng: 4.436039
 -
   city: Gent
   place: Universiteit Gent
-  address: |
-    Faculteit Wetenschappen
-    1e verdieping - lokaal 40.09.110.005
-    Krijgslaan 281 - S9
-    9000 Gent
-  route_link: https://pcknooppuntwe.ugent.be/A_Turing.html
+  address: Te bepalen / A déterminer
+  # address: |
+  #   Faculteit Wetenschappen
+  #   1e verdieping - lokaal 40.09.110.005
+  #   Krijgslaan 281 - S9
+  #   9000 Gent
+  # route_link: https://pcknooppuntwe.ugent.be/A_Turing.html
   pos:
     lat: 51.0227516
     lng: 3.7105733
-# -
-# No qualification centre in Hasselt for 2022, but OK for next year
-#   city: Hasselt
-#   place: Universiteit Hasselt
-#   address: Te bepalen / A déterminer
+-
+  city: Hasselt
+  place: Universiteit Hasselt
+  address: Te bepalen / A déterminer
 #   address: |
 #       Lokaal B17
 #       Agoralaan gebouw D
 #       3590 Diepenbeek
 #   route_link: https://drive.google.com/a/uhasselt.be/open?id=1zXIf7GVO8ILyyZWhAxpnhnuAHEZO80-i&usp=sharing
-#   pos:
-#     lat: 50.9253703
-#     lng: 5.3912436
-# -
-#   city: Kortrijk
-#   place: Hogeschool VIVES Kortrijk
+  pos:
+    lat: 50.9253703
+    lng: 5.3912436
+-
+  city: Kortrijk
+  place: Hogeschool VIVES Kortrijk
+  address: Te bepalen / A déterminer
 #   address: |
 #     Lokaal 61.09
 #     (via receptie in centrale gebouw 't Forum)
 #     Doorniksesteenweg 145
 #     8500 Kortrijk
 #   route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
-#   pos:
-#     lat: 50.8058796
-#     lng: 3.2840281
+  pos:
+    lat: 50.8058796
+    lng: 3.2840281
 -
   city: Leuven
   place: KU Leuven
-  address: |
-      ICTS PC-klas A (200C 00.01)
-      Celestijnenlaan 200C
-      3001 Leuven
-      (westelijke ingang van gebouw 200C)
+  address: Te bepalen / A déterminer
+  # address: |
+  #     ICTS PC-klas A (200C 00.01)
+  #     Celestijnenlaan 200C
+  #     3001 Leuven
+  #     (westelijke ingang van gebouw 200C)
   # route_link: https://wms.cs.kuleuven.be/cs/algemeen/routebeschrijving
   pos:
     lat: 50.86411
     lng: 4.6786777
-# -
-#   city: Libramont
-#   place: Haute École Robert Schuman (HERS)
+-
+  city: Libramont
+  place: Haute École Robert Schuman (HERS)
+  address: Te bepalen / A déterminer
 #   address: |
 #     Local B1
 #     Rue de la Cité, 64
 #     6800 Libramont
 #   route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
-#   pos:
-#     lat: 49.9280097
-#     lng: 5.3788132
+  pos:
+    lat: 49.9280097
+    lng: 5.3788132
 -
   city: Liège
   place: Université de Liège
-  address: |
-      Institut Montefiore (B28), salle 1/132
-      Sart-Tilman, Quartier Polytech 1
-      Allée de la découverte, 10
-      4000 Liège
-  route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
+  address: Te bepalen / A déterminer
+  # address: |
+  #     Institut Montefiore (B28), salle 1/132
+  #     Sart-Tilman, Quartier Polytech 1
+  #     Allée de la découverte, 10
+  #     4000 Liège
+  # route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
   pos:
     lat: 50.586300427727544
     lng: 5.5597130611686225
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  address: |
-    Salle Darwin (local C 039)
-    Bâtiment Carnoy
-    Place Croix du Sud
-    1348 Louvain-la-Neuve
-  route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
+  address: Te bepalen / A déterminer
+  # address: |
+  #   Salle Darwin (local C 039)
+  #   Bâtiment Carnoy
+  #   Place Croix du Sud
+  #   1348 Louvain-la-Neuve
+  # route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
   pos:
     lat: 50.6671189
     lng: 4.6195422
 -
   city: Mons
   place: Université de Mons
-  address: |
-    Faculté des sciences
-    Salle Bertrand Russell (1er étage)
-    Bâtiment de Vinci-Mendeleïev
-    Avenue Victor Maistriau, 15
-    7000 Mons
-  route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
+  address: Te bepalen / A déterminer
+  # address: |
+  #   Faculté des sciences
+  #   Salle Bertrand Russell (1er étage)
+  #   Bâtiment de Vinci-Mendeleïev
+  #   Avenue Victor Maistriau, 15
+  #   7000 Mons
+  # route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
   pos:
     lat: 50.465386309824076
     lng: 3.957460607554272
 -
   city: Namur
   place: Université de Namur
-  address: |
-    Faculté d’informatique
-    Pool I35 (3ème étage, local 330)
-    Rue Grandgagnage, 21
-    5000 Namur
-  route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
+  address: Te bepalen / A déterminer
+  # address: |
+  #   Faculté d’informatique
+  #   Pool I35 (3ème étage, local 330)
+  #   Rue Grandgagnage, 21
+  #   5000 Namur
+  # route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
   pos:
     lat: 50.4658487
     lng: 4.8576964
