@@ -4,7 +4,7 @@
   L'éliminatoire aura lieu la semaine du <strong>6 au 10 février 2023</strong> dans votre école (démarrage entre 8h00 et 15h30)
 	ou le <strong>mercredi 8 février à 14h00</strong> dans l'un des
   <% if config.registration_open %>
-  <%= link_to "8 centres régionaux", "#qualif-centers"%>.
+  <%= link_to "%d centres régionaux"% data.qualification_centers.length, "#qualif-centers"%>.
   <% else %>
     8 centres régionaux.
   <% end %> L'épreuve dure 75 minutes, vous ne pouvez la passer qu'une seule fois.
