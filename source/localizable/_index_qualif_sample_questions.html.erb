@@ -3,7 +3,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h4 class="uppercase mb80"><%= t(:sample_tasks_qualifying) %></h4>
+        <h4 class="uppercase mb40"><%= t(:sample_tasks_qualifying) %></h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 text-center mb40">
+        <%= ext_link_to t(:try_now), current_page.data.contest_platform[lang], class:"btn btn-filled btn-lg mb0 " %>
       </div>
     </div>
 
