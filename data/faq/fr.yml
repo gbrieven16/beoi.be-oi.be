@@ -1,8 +1,8 @@
-- 
+-
   category_title: "Concours & Inscription"
   default_sel: true
-  questions: 
-    - 
+  questions:
+    -
       question: Combien coûte l'inscription ?
       answer: Le concours est entièrement gratuit.
     -
@@ -12,53 +12,51 @@
         pour début décembre au plus tard. D'ici là, vous pouvez laisser votre adresse
         e-mail sur la page principale du site afin d'être prévenu dès l'ouverture
         des inscriptions.
-    - 
+    -
       question: "J'habite à l'étranger, puis-je participer ?"
-      answer: | 
-        Les belges habitant à l'étranger ou inscrits dans une école secondaire 
+      answer: |
+        Les belges habitant à l'étranger ou inscrits dans une école secondaire
         à l'étranger peuvent participer à l'Olympiade belge.
-    - 
+    -
       question: "Je ne suis pas belge, puis-je participer ?"
       answer: |
-        Si vous n'êtes pas belge mais inscrit dans un école belge, vous pouvez 
-        vous inscrire à l'Olympiade belge d'Informatique. Si vous n'êtes pas 
+        Si vous n'êtes pas belge mais inscrit dans un école belge, vous pouvez
+        vous inscrire à l'Olympiade belge d'Informatique. Si vous n'êtes pas
         belge et n'êtes pas inscrits dans une école belge, vous ne pouvez
-        pas participer à notre olympiade. La plupart des pays ont cependant 
+        pas participer à notre olympiade. La plupart des pays ont cependant
         un concours dont les liens sont principalement repris sur
-        <a href="http://ioinformatics.org/a_d_m/members.shtml" target="_blank">https://ioinformatics.org/page/members/7</a>.
+        <a href="https://ioinformatics.org/page/members/7" target="_blank">https://ioinformatics.org/page/members/7</a>.
         Pour la France, le concours est organisé par France-IOI.
-    - 
+    -
       question: Puis-je participer si je suis en échange dans un pays étranger lors du concours ?
-      answer: | 
-        Nous réglons pour l'instant ce problème au cas par cas. Il peut être 
-        possible de participer à l'éliminatoire à distance si nous avons un 
-        point de contact fiable (dans une école, université). Veuillez nous 
+      answer: |
+        Nous réglons pour l'instant ce problème au cas par cas. Il peut être
+        possible de participer à l'éliminatoire à distance si nous avons un
+        point de contact fiable (dans une école, université). Veuillez nous
         contacter à info@be-oi.be dans tous les cas.
-- 
+-
   category_title: Éliminatoires
-  questions: 
+  questions:
     -
       question: Où se déroulent les éliminatoires ?
       answer: |
-        Les éliminatoires se déroulent dans les écoles (voir ci-dessous) et dans les 
-        centres régionaux suivants:
-        Bruxelles (Etterbeek), Louvain-la-Neuve, Namur, Liège, Mons, Libramont, Gand, Anvers, Leuven,
-        Hasselt, Courtrai. Les adresses précises sont disponibles sur la page du concours lorsque les
-        inscriptions sont ouvertes.
-    - 
+        Les éliminatoires se déroulent dans les écoles (voir ci-dessous) et dans les
+        <a href="/fr/#qualif-centers">centres régionaux que vous pourrez trouver sur notre page principale</a>.
+        Les adresses précises seront disponibles à l'approche du concours.
+    -
       question: Puis-je passer l'éliminatoire dans un centre néerlandophone ?
       answer: |
-        Vous pouvez passer l'épreuve en français dans l'ensemble des 
-        centre en Belgique. Sachez cependant que les surveillants des 
+        Vous pouvez passer l'épreuve en français dans l'ensemble des
+        centre en Belgique. Sachez cependant que les surveillants des
         centres néerlandophones ne sauront peut-être pas vous répondre en français.
-        Les questions pouvant être posées à l'éliminatoire 
-        ne concernent pas l'épreuve mais uniquement des détails 
+        Les questions pouvant être posées à l'éliminatoire
+        ne concernent pas l'épreuve mais uniquement des détails
         pratiques (temps restant, ...).
     -
       question: Puis-je passer l'éliminatoire dans mon école ?
       answer: |
         Oui, à condition d'avoir le support d'un enseignant. L'école doit également remplir
-        un ensemble de conditions indiquées ci-dessous dans la catégorie "écoles". Dans le 
+        un ensemble de conditions indiquées ci-dessous dans la catégorie "écoles". Dans le
         cas contraire, passez l'épreuve dans le centre régional le plus proche.
 -
   category_title: Finale et la suite ...
@@ -73,45 +71,43 @@
       answer: |
         La finale est une épreuve papier. Les questions comporteront des extraits de code
         simples à compléter. Il est donc nécessaire de savoir programmer dans un language
-        de programmation commun. 
-        Tous les finalistes auront l'occasion de participer à une formation d'introduction à la 
-        programmation donnée durant les vacances du Carnaval. Les dates et lieux exacts 
+        de programmation commun.
+        Tous les finalistes auront l'occasion de participer à une formation d'introduction à la
+        programmation donnée durant les vacances du Carnaval. Les dates et lieux exacts
         seront annoncés à l'approche de la formation.
     -
       question: Et si je sais déjà bien programmer ?
       answer: |
-        Nous vous invitons alors à participer à la beCP. Il s'agit du groupe de nos 
+        Nous vous invitons alors à participer à la beCP. Il s'agit du groupe de nos
         programmeurs les plus talentueux, ils participent à des formations avancées
-        d'algorithmique. 
+        d'algorithmique.
         La beCP permet de s'entraîner et de participer à des compétitions de niveau
         international, telles que l'Olympiade Internationale d'Informatique.
         Toutes les infos a propos de la beCP (y compris comment la rejoindre) se trouvent
-        sur notre site <a href="http://becp.be-oi.be/fr/becp/" target="_blank">becp.be-oi.be</a>.
+        sur notre site <a href="https://www.be-oi.be/fr/becp/">beCP</a>.
     -
       question:  Comment puis-je participer à l'Olympiade Internationale ?
       answer: |
         La Belgique envoie chaque année une délégation de quatre étudiants à l'Olympiade Internationale
         d'Informatique. L'équipe est composée suite à un concours de sélection
         parmi les participants du groupe beCP.
-        Pour y participer, vous devez donc commencer par rejoindre la beCP. 
+        Pour y participer, vous devez donc commencer par rejoindre la beCP.
 -
   category_title: Écoles
   questions:
-    - 
+    -
       question: Qu'est-ce qui a changé à partir de 2017 ?
       answer: |
         Dans les grandes lignes, depuis 2017:<br>
         - La qualification a lieu sur ordinateur via une plate-forme en ligne.<br>
         - Notre objectif est d'automatiser les inscriptions autant que possible.<br>
-        - Afin de répondre à la croissance du concours, 50 participants de chaque catégorie
+        - Afin de répondre à la croissance du concours, quelques dizaines de participants de chaque catégorie
           sont qualifiés pour la finale.<br>
-        - La finale rester sur papier.<br>
+        - La finale reste sur papier.<br>
         - Un effort est mis sur une meilleure estimation du temps et de la difficulté de
           l'épreuve.<br>
         - Vu que nous savons qu'il peut être difficile de réserver des salles informatique,
           nous essayerons de donner le plus de souplesse dans l'organisation pratique.
-        Lorsque la plate-forme de concours sera prête, nous vous permettrons de tester le 
-        concours.
     -
       question: Sous quelles conditions mon école peut-elle organiser l'éliminatoire ?
       answer: |
@@ -121,13 +117,11 @@
         - Avoir une salle informatique dans lequelle organiser l'épreuve avec un ordinateur par
           participant et une connexion Internet.<br>
         - Avoir une surveillance constante pendant toute l'épreuve.<br>
-        - Faire respecter le règlement de l'épreuve (pas de GSM, ...), qui sera fourni quelques
-          jours avant l'épreuve.<br>
-        - Organiser l'épreuve le même jour que les autres centres.<br>
+        - Organiser l'épreuve durant la semaine de l'épreuve (début de l'épreuve entre 8h30 et 15h30).<br>
     -
       question: Mes élèves doivent-ils s'inscrire sur votre site ?
       answer: |
-        Non. L'inscription de vos élèves sera faite par l'école. 
+        Non. L'inscription de vos élèves sera faite par l'école.
     -
       question: Comment inscrire mon école ?
       answer: |
