@@ -1,12 +1,12 @@
 -
   city: Antwerpen
   place: Universiteit Antwerpen
-  address: 
-  # address: | Te bepalen / A déterminer
+  address: |
     Campus Groenenborger, gebouw Z
     Lokaal G.Z.423
     Groenenborgerlaan 171
     2020 Antwerpen
+  # address: | Te bepalen / A déterminer
   route_link: https://www.uantwerpen.be/campus-groenenborger
   pos:
     lat: 51.17821
@@ -14,7 +14,7 @@
 -
   city: Brussel / Bruxelles
   place: VUB
-  address: 
+  address: |
     VUB Campus Etterbeek
     Local E.1.3 et E.1.4
     Bd de la Plaine 2 / Pleinlaan 2
@@ -58,11 +58,11 @@
 -
   city: Hasselt
   place: Universiteit Hasselt
-  address:
-  #   address: | Te bepalen / A déterminer
+  address: |
     UHasselt - Campus Diepenbeek - Agoralaan gebouw D
     Lokaal B17
     3590 Diepenbeek
+  #   address: | Te bepalen / A déterminer
   route_link: https://drive.google.com/a/uhasselt.be/open?id=1zXIf7GVO8ILyyZWhAxpnhnuAHEZO80-i&usp=sharing
   pos:
     lat: 50.9253703
@@ -83,12 +83,12 @@
 -
   city: Leuven
   place: KU Leuven
-  address: 
-#   address: |Te bepalen / A déterminer
+  address: |
     KU Leuven Department of Computer Science
     Room 00.124
     Celestijnenlaan 200A
     3001 Leuven
+#   address: |Te bepalen / A déterminer
   route_link: https://wms.cs.kuleuven.be/cs/over/routebeschrijving
   pos:
     lat: 50.86411
@@ -108,12 +108,12 @@
 -
   city: Liège
   place: Université de Liège
-  address: 
-  # address: |Te bepalen / A déterminer salle 1/132
-    Institut Montefiore (B28) 
+  address: |
+    Institut Montefiore (B28)
     Sart-Tilman, Quartier Polytech 1
     Allée de la découverte, 10
     4000 Liège
+  # address: |Te bepalen / A déterminer salle 1/132
   route_link: https://www.campus.uliege.be/cms/c_1841269/fr/b28-institut-montefiore
   pos:
     lat: 50.586300427727544
@@ -121,12 +121,12 @@
 -
   city: Louvain-la-Neuve
   place: Université Catholique de Louvain
-  address: 
-  # address: |Te bepalen / A déterminer
+  address: |
     Salle Darwin
     Bâtiment de Serres B -102
-    rue croix du SUD 
+    rue croix du SUD
     1348 Louvain-la-Neuve
+  # address: |Te bepalen / A déterminer
   route_link: https://www.google.be/maps/@50.6666654,4.6202984,19.52z/data=!4m2!6m1!1s1LhefFjePIBksJEJ91QsFZk2V4hDuNQEL?hl=fr&authuser=0
   pos:
     lat: 50.6671189
@@ -134,13 +134,13 @@
 -
   city: Mons
   place: Université de Mons
-  address:
-  # address: | Te bepalen / A déterminer
+  address: |
      Faculté des sciences
      Salle Bertrand Russell (1er étage)
      Bâtiment de Vinci-Mendeleïev
      Avenue Victor Maistriau, 15
      7000 Mons
+  # address: | Te bepalen / A déterminer
   route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
   pos:
     lat: 50.465386309824076
