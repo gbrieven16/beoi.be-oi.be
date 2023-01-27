@@ -33,25 +33,24 @@
 -
   city: Charleroi
   place: HELHA
-  address: Te bepalen / A déterminer
-# address: |
-#     UCLouvain, Campus de Charleroi
-#     Salle informatique D007
-#     136, Rue Trieu Kaisin
-#     6061 Montignies-sur-Sambre
+  address:
+# address: | Te bepalen / A déterminer Salle informatique D007
+    UCLouvain, Campus de Charleroi
+    136, Rue Trieu Kaisin
+    6061 Montignies-sur-Sambre
   pos:
     lat: 50.473463
     lng: 4.436039
 -
   city: Gent
   place: Universiteit Gent
-  address: Te bepalen / A déterminer
-  # address: |
+  address: 
+  # address: |Te bepalen / A déterminer
   #   Faculteit Wetenschappen
-  #   1e verdieping - lokaal 40.09.110.005
-  #   Krijgslaan 281 - S9
-  #   9000 Gent
-  # route_link: https://pcknooppuntwe.ugent.be/A_Turing.html
+    Campus Sterre
+    Vergaderzaal 0.7 Miami
+    Krijgslaan 281 - S9
+    9000 Gent
   pos:
     lat: 51.0227516
     lng: 3.7105733
@@ -70,13 +69,13 @@
 -
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
-  address: Te bepalen / A déterminer
-#   address: |
+  address: 
+#   address: | Te bepalen / A déterminer
 #     Lokaal 61.09
 #     (via receptie in centrale gebouw 't Forum)
-#     Doorniksesteenweg 145
-#     8500 Kortrijk
-#   route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
+    Doorniksesteenweg 145
+    8500 Kortrijk
+  route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
   pos:
     lat: 50.8058796
     lng: 3.2840281
@@ -109,7 +108,8 @@
   city: Liège
   place: Université de Liège
   address: |
-    Institut Montefiore (B28)
+    B37 - Local 1/45
+    Institut Montefiore
     Sart-Tilman, Quartier Polytech 1
     Allée de la découverte, 10
     4000 Liège
@@ -148,13 +148,13 @@
 -
   city: Namur
   place: Université de Namur
-  address: Te bepalen / A déterminer
-  # address: |
-  #   Faculté d’informatique
-  #   Pool I35 (3ème étage, local 330)
-  #   Rue Grandgagnage, 21
-  #   5000 Namur
-  # route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
+  address: 
+  # address: |Te bepalen / A déterminer
+    Faculté d’informatique
+    Pool I35 (3ème étage)
+    Rue Grandgagnage, 21
+    5000 Namur
+  route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
   pos:
     lat: 50.4658487
     lng: 4.8576964
