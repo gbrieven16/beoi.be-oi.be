@@ -33,24 +33,24 @@
 -
   city: Charleroi
   place: HELHA
-  address:
-# address: | Te bepalen / A déterminer Salle informatique D007
+  address: |
     UCLouvain, Campus de Charleroi
     136, Rue Trieu Kaisin
     6061 Montignies-sur-Sambre
+# address: | Te bepalen / A déterminer Salle informatique D007
   pos:
     lat: 50.473463
     lng: 4.436039
 -
   city: Gent
   place: Universiteit Gent
-  address: 
-  # address: |Te bepalen / A déterminer
-  #   Faculteit Wetenschappen
+  address: |
     Campus Sterre
     Vergaderzaal 0.7 Miami
     Krijgslaan 281 - S9
     9000 Gent
+  # address: |Te bepalen / A déterminer
+  #   Faculteit Wetenschappen
   pos:
     lat: 51.0227516
     lng: 3.7105733
@@ -69,12 +69,12 @@
 -
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
-  address: 
+  address: |
+    Doorniksesteenweg 145
+    8500 Kortrijk
 #   address: | Te bepalen / A déterminer
 #     Lokaal 61.09
 #     (via receptie in centrale gebouw 't Forum)
-    Doorniksesteenweg 145
-    8500 Kortrijk
   route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
   pos:
     lat: 50.8058796
@@ -148,12 +148,12 @@
 -
   city: Namur
   place: Université de Namur
-  address: 
-  # address: |Te bepalen / A déterminer
+  address: |
     Faculté d’informatique
     Pool I35 (3ème étage)
     Rue Grandgagnage, 21
     5000 Namur
+  # address: |Te bepalen / A déterminer
   route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
   pos:
     lat: 50.4658487
