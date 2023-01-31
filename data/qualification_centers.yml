@@ -34,6 +34,7 @@
   city: Charleroi
   place: HELHA
   address: |
+    Salle informatique D007
     UCLouvain, Campus de Charleroi
     136, Rue Trieu Kaisin
     6061 Montignies-sur-Sambre
@@ -70,6 +71,7 @@
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
   address: |
+    Ruimte H - 60.09 Vergaderlokaal
     Doorniksesteenweg 145
     8500 Kortrijk
 #   address: | Te bepalen / A déterminer
@@ -93,9 +95,8 @@
     lat: 50.86411
     lng: 4.6786777
 -
-  city: Libramont
+  city: Libramont (geannuleerd/annulé)
   place: Haute École Robert Schuman (HERS)
-  address: Te bepalen / A déterminer
 #   address: |
 #     Local B1
 #     Rue de la Cité, 64
